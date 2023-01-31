@@ -22,6 +22,8 @@ Download the app and follow the on-screen instructions to install the app.
 Create a file called "README.md" in the root directory of your project.
 Add the content of the generator README template to the file, customizing it for your specific generator and project.
 
+https://drive.google.com/file/d/1WIoA6NVvUfn5ukidsI3fBrZgXQrW_TXx/view
+
 ## License
 
 This project is licensed under no license.
