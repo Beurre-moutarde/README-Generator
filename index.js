@@ -1,7 +1,9 @@
+//Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
 
+//Array of questions for user input
 const questions = [
     {
       type: "input",
@@ -59,6 +61,7 @@ const questions = [
   inquirer
   .prompt(questions)
   .then((answers) => {
+    //returns a license badge based on which license is passed in, If there is no license, return an empty string
     const licenseBadge =
       answers.license === "MIT"
         ? "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -68,6 +71,7 @@ const questions = [
         ? "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
         : "";
 
+//Generate markdown for README
 const readme = `
 # ${answers.title}
 ${licenseBadge}
@@ -110,6 +114,7 @@ If you have any questions, feel free to reach out to me on GitHub at [${answers.
 writeToFile("README.md", readme)
 });
 
+//function to write README file
   function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
       if (err) throw err;
