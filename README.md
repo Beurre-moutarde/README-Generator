@@ -1,32 +1,38 @@
 
-        # README Generator
-        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Tic tact Toe
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
         
-        ## Description
-        This application will create a professionel README file for your repository
+## Description
+Tic Tac Toe is a two player game in which player markX's and o's on a 3x3 grid to get three in a row.
         
-        ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
         
-        ## Installation
-        npm install
+## Installation
+
+Download the software and follow the on-screen instruction to install the game.
         
-        ## Usage
-        Follow the prompt
+## Usage
+
+Choose a player to go first and take turn marking X's and O's in the empty square.
         
-        ## License
-        This project is licensed under the MIT license.
+## License
+
+This project is licensed under the MIT license.
         
-        ## Contributing
-        Beurre-moutarde
+## Contributing
+
+To contribute to Tic Tac Toe, familiarize yourself with the project and its goals.
         
-        ## Tests
-        npm run test 
+## Tests
+Make sure you have a copy of the latest version..
         
-        ## Questions
-        If you have any questions, feel free to reach out to me on GitHub at [Beurremoutarde](https://github.com/Beurremoutarde) or by email at christopher.m.lebreton@gmail.com. 
+## Questions
+
+If you have any questions, feel free to reach out to me on GitHub at [Beurre-moutarde](https://github.com/Beurre-moutarde) or by email at Chris.le@vs.com. 

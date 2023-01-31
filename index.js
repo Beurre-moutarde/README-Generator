@@ -68,41 +68,47 @@ const questions = [
         ? "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
         : "";
 
-        const readme = `
-        # ${answers.title}
-        ${licenseBadge}
+const readme = `
+# ${answers.title}
+${licenseBadge}
         
-        ## Description
-        ${answers.description}
+## Description
+${answers.description}
         
-        ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
         
-        ## Installation
-        ${answers.installation}
+## Installation
+
+${answers.installation}
         
-        ## Usage
-        ${answers.usage}
+## Usage
+
+${answers.usage}
         
-        ## License
-        This project is licensed under the ${answers.license} license.
+## License
+
+This project is licensed under the ${answers.license} license.
         
-        ## Contributing
-        ${answers.contributing}
+## Contributing
+
+${answers.contributing}
         
-        ## Tests
-        ${answers.tests}
+## Tests
+${answers.tests}
         
-        ## Questions
-        If you have any questions, feel free to reach out to me on GitHub at [${answers.username}](https://github.com/${answers.username}) or by email at ${answers.email}. `; 
+## Questions
+
+If you have any questions, feel free to reach out to me on GitHub at [${answers.username}](https://github.com/${answers.username}) or by email at ${answers.email}. `; 
        
-        writeToFile("README.md", readme)
-  });
+writeToFile("README.md", readme)
+});
 
   function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
